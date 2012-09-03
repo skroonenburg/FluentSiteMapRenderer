@@ -3,6 +3,16 @@ FluentSiteMapRenderer
 
 An extensible utility that makes it simple and easy to render MVC site map structures to HTML.
 
+## Vision
+FluentSiteMapRenderer is a nuget package that wraps the open-source MvcSiteMapProvider. It aims to render a SiteMapNode in-memory structure to HTML.
+
+This will help you render menus, drop-downs and other user interfaces from site map data.
+
+Every web-site is different, and every site needs different HTML. This is why every phase of the rendering process is customizable.
+Several rendering mechanisms are provided out-of-the-box to serve common cases.
+
+### How Does It Work?
+
 The rendering process works in 3 stages:
 
  1.  Node selection: select the nodes from the site map tree that will be rendered to HTML. 
